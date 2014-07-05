@@ -1,0 +1,49 @@
+<head>
+  <title>coderClicker</title>
+</head>
+
+<body>
+{{loginButtons}}
+  {{> hello}}
+
+<table>
+    <th>
+        <tr>
+            <td>
+                yo
+            </td>
+            <td>
+                mom
+            </td>
+
+            <td>
+                so
+            </td>
+        </tr>
+    </th>
+
+    <tbody>
+    <tr>
+        <td>
+            yo
+        </td>
+
+        <td>
+            mom
+        </td>
+
+        <td>
+            so
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+
+<template name="hello">
+  <h1>Coder Clicker</h1>
+    <input type="button" class="code btn span4" value="Write line of code ($25)" />
+
+   <h2>You ({{user.username}}) have ${{user.money}} and make ${{user.rate}} per second!!</h2>
+    <input type="button" value="lets do something!" />
+</template>
